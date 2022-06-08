@@ -1,0 +1,73 @@
+#box {
+    font-family: 'Times New Roman', Times, serif;
+    largura :  100 % ;
+    altura :  100 % ;
+    margem :  0 ;
+    preenchimento :  0 ;
+    background-size : contém
+}
+
+body,html {
+    font-size: large;
+    width: 80%;
+    height: 80%;
+    margin: 5;
+    padding: 5;
+    background-color: black;
+}
+
+#center {
+    padding-top: 85px;
+    padding-bottom: 50px;
+    font-size: 120%;
+    list-style: disc;
+}
+
+
+li {
+    padding-top: 10px;
+    color: rgb(213, 210, 210);
+    text-align: right;
+    text-align: left;
+    margin-left: 75px;
+}
+
+#check {
+    margin-right: 10px;
+}
+
+#btn {
+    width: 85px;
+    height: 25px;
+    border-color: rgba(255, 255, 255, 0.886);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.768);
+    text-align: center;
+    margin-inline: 255px 30px;
+    box-shadow: 0px 0px 2px rgb(121, 121, 121);
+}
+
+
+#adicTarefa {
+    width: 500px;
+    height: 25px;
+    border-color: rgb(78, 5, 5);
+    border-radius: 10px;
+    background-color: rgba(100, 7, 7, 0.768);
+    font-stretch: extra-condensed;
+    margin-inline: 20% 40px;
+}
+
+input::placeholder {
+    color: rgb(28, 28, 28);
+    padding-left: 7px;
+  }
+
+#inserir {
+    width: 165px;
+    height: 40px;
+    border-color: rgba(110, 7, 7, 0.007);
+    border-radius: 15px;
+    background-color: rgba(134, 7, 7, 0.768);
+    box-shadow: 0px 0px 2px rgb(119, 5, 5);
+}
